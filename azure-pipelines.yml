@@ -32,4 +32,4 @@ jobs:
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
-  - script: build.sh -$(_BuildConfig)
+  - script: ./build.sh -$(_BuildConfig)
